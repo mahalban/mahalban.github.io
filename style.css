@@ -331,21 +331,21 @@ ul {
 .item-1 {
 	z-index: 2;
 	opacity: 1;
-	background: url('/we-vac.JPG');
+	background: url('/img/we-vac.JPG');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 .item-2 {
-	background: url('/fam-th.jpg');
+	background: url('/img/fam-th.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 .item-3 {
-	background: url('/fam-tr.JPG');
+	background: url('/img/fam-tr.JPG');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
