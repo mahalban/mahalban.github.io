@@ -104,23 +104,25 @@ body {
 }
 
 .linked a {
-	font-size: 30px;
+	font-size: 27px;
     text-decoration: none;
     color: #ADEFD1FF;
     margin: 0;
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
 .download-file a {
-	font-size: 25px;
+	font-size: 20px;
     text-decoration: none;
     color: #ADEFD1FF;
-    margin: 0 auto;
-    margin-left: 110px;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .name-text a:hover {
@@ -128,22 +130,16 @@ body {
 }
 
 .button {
+	margin: 0;
+    position: absolute;
+    padding: 5px 10px;
+	font-size: 14px;
 	border: 1px solid #ADEFD1FF;
     border-radius: 5px;
     color: #00203FFF;
     background-color: #ADEFD1FF;
-    padding: 5px 10px;
-    /* text-align: center; */
-    /* text-decoration: none; */
-    /* display: inline-block; */
-    font-size: 14px;
-    /* margin: 6px 3px; */
     cursor: pointer;
-    /* display: block; */
-    /* margin-left: 38%; */
-    margin: 0;
-    position: absolute;
-    top: 87%;
+    top: 82%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -156,12 +152,11 @@ body {
 	border: 1px solid #ADEFD1FF;
 	padding: 5px 10px;
 	font-size: 14px;
-	margin: 6px 3px;
 	cursor: pointer;
 	transition: .1s;
 	margin: 0;
     position: absolute;
-    top: 87%;
+    top: 82%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
