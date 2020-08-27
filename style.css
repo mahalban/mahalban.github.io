@@ -104,21 +104,23 @@ body {
 }
 
 .linked a {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 8%;
-	font-size: 25px;
-	text-decoration: none;
-	color: #ADEFD1FF;
+	font-size: 30px;
+    text-decoration: none;
+    color: #ADEFD1FF;
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .download-file a {
-	float: right;
-	margin-right: 35%;
 	font-size: 25px;
-	text-decoration: none;
-	color: #ADEFD1FF;
+    text-decoration: none;
+    color: #ADEFD1FF;
+    margin: 0 auto;
+    margin-left: 110px;
 }
 
 .name-text a:hover {
@@ -127,16 +129,24 @@ body {
 
 .button {
 	border: 1px solid #ADEFD1FF;
-	border-radius: 5px;
-	color: #00203FFF;
-	background-color: #ADEFD1FF;
-	padding: 5px 10px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 14px;
-	margin: 6px 3px;
-	cursor: pointer;
+    border-radius: 5px;
+    color: #00203FFF;
+    background-color: #ADEFD1FF;
+    padding: 5px 10px;
+    /* text-align: center; */
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    font-size: 14px;
+    /* margin: 6px 3px; */
+    cursor: pointer;
+    /* display: block; */
+    /* margin-left: 38%; */
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 
 }
 
@@ -145,13 +155,16 @@ body {
 	color: #ADEFD1FF;
 	border: 1px solid #ADEFD1FF;
 	padding: 5px 10px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
 	font-size: 14px;
 	margin: 6px 3px;
 	cursor: pointer;
 	transition: .1s;
+	margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #o-h1 {
