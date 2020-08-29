@@ -2,10 +2,10 @@
 $(function () {
     // Cache selectors
     var $accordion = $(".js-accordion");
-    var $allPanels = $(" .accordion-panel").hide();
-    var $allItems = $(".accordion-item");
+    var $allPanels = $(" .accordionPanel").hide();
+    var $allItems = $(".accordionItem");
     // Event listeners
-    $accordion.on("click", ".accordion-toggle", function () {
+    $accordion.on("click", ".accordionToggle", function () {
         // Toggle the current accordion panel and close others
         $allPanels.slideUp();
         $allItems.removeClass("is-open");
@@ -14,12 +14,12 @@ $(function () {
             .next()
             .is(":visible")
         ) {
-            $(".accordion-panel").slideUp();
+            $(".accordionPanel").slideUp();
         } else {
             $(this)
                 .next()
                 .slideDown()
-                .closest(".accordion-item")
+                .closest(".accordionItem")
                 .addClass("is-open");
         }
         return false;

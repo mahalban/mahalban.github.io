@@ -1,21 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700&display=swap');
+
 *,
 *:before,
 *:after {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+
 }
 
 html {
 	font-size: 100%;
-	font-family: 'calibri', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	width: 100%;
 	padding: 0px;
 }
 
 body {
 	-webkit-font-smoothing: antialiased;
-	font-family: 'calibri', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.4;
@@ -105,24 +108,24 @@ body {
 
 .linked a {
 	font-size: 27px;
-    text-decoration: none;
-    color: #ADEFD1FF;
-    margin: 0;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+	text-decoration: none;
+	color: #ADEFD1FF;
+	margin: 0;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .download-file a {
 	font-size: 20px;
-    text-decoration: none;
-    color: #ADEFD1FF;
-    top: 70%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+	text-decoration: none;
+	color: #ADEFD1FF;
+	top: 70%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .name-text a:hover {
@@ -131,18 +134,18 @@ body {
 
 .button {
 	margin: 0;
-    position: absolute;
-    padding: 5px 10px;
+	position: absolute;
+	padding: 5px 10px;
 	font-size: 14px;
 	border: 1px solid #ADEFD1FF;
-    border-radius: 5px;
-    color: #00203FFF;
-    background-color: #ADEFD1FF;
-    cursor: pointer;
-    top: 82%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+	border-radius: 5px;
+	color: #00203FFF;
+	background-color: #ADEFD1FF;
+	cursor: pointer;
+	top: 82%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 
 }
 
@@ -155,11 +158,11 @@ body {
 	cursor: pointer;
 	transition: .1s;
 	margin: 0;
-    position: absolute;
-    top: 82%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+	position: absolute;
+	top: 82%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 #o-h1 {
@@ -177,34 +180,35 @@ hr {
 	border: 1px solid #00203FFF;
 }
 
-.accordion-toggle {
+.accordionToggle {
 	display: block;
 	width: 100%;
 	padding: 0px;
 	cursor: pointer;
 	margin: 0;
 	border: 0;
+	border-radius: 5px;
 	line-height: inherit;
 	text-align: left;
 }
 
 .bg:hover {
 	background-color: #00203FFF;
+	border-radius: 5px;
 	transition: .5s;
-	border-radius: 10px;
 }
 
 .bg {
 	margin: 0px 0px;
-	padding: 5px 10px 5px 10px;
+	padding: 3px 10px 3px 10px;
 }
 
-.accordion-panel {
+.accordionPanel {
 	margin-top: 15px;
 	background-color: #00203FFF;
 	border: #555555;
 	padding: 5px 10px;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 .skill-set li:hover {
@@ -214,6 +218,8 @@ hr {
 
 .inner h1 {
 	color: #00203FFF;
+	font-size: 20px;
+	;
 }
 
 .inner h1:hover {
@@ -225,10 +231,6 @@ hr {
 	margin: 0 auto;
 	max-width: 975px;
 	padding: 2em;
-}
-
-.ac .a .inner h1 {
-	font-size: 1.5em;
 }
 
 .inner p {
