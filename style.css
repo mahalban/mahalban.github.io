@@ -206,6 +206,12 @@ body {
     background-color: #00203FFF;
     border: #555555;
     padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.accordionPanel:hover {
+    background-color: #00203FFF;
+    opacity: 0.95;
 }
 .inner h1 {
     color: #00203FFF;
