@@ -138,7 +138,6 @@ body {
 .inner {
     background-color: #ADEFD1FF;
     margin: 0 auto;
-    max-width: 975px;
     padding: 2em;
 }
 #objh1 {
@@ -322,7 +321,7 @@ ul {
     z-index: 3;
     opacity: 1;
 }
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 1024px) {
     .right,
     .left {
         float: none;
@@ -330,16 +329,7 @@ ul {
         width: 100%;
         min-height: 500px;
     }
-    @media screen and (max-width: 75em) {
-        body {
-            font-size: 16px;
-        }
-    }
-    @media screen and (max-width: 60em) {
-        body {
-            font-size: 14px;
-        }
-    }
+    
     .clearfix:after {
         content: " ";
         /* Older browser do not support empty content */
