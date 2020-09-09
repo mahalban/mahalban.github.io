@@ -26,12 +26,12 @@ $(function() {
   });
 });
 $(function() {
-  $(".FAQHead").click(function() {
+  $(".toggleHead").click(function() {
       if ($(this).parent(".FAQ").hasClass("active")) {
-          $(".FAQIcon").removeClass("active");
+          $(".toggleIcon").removeClass("active");
       } else {
-          $(".FAQIcon").removeClass("active");
-          $(this).find(".FAQIcon").addClass("active");
+          $(".toggleIcon").removeClass("active");
+          $(this).find(".toggleIcon").addClass("active");
       }
   });
 });

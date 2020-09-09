@@ -164,7 +164,7 @@ body {
 .FAQ {
     padding-bottom: 20px;
 }
-.FAQHead {
+.toggleHead {
     border: 1px solid #00203FFF;
     display: flex;
     justify-content: space-between;
@@ -173,15 +173,15 @@ body {
     cursor: pointer;
     transition: 0.3s ease all;
 }
-.FAQHead:hover {
+.toggleHead:hover {
     border-radius: 15px;
 }
-.FAQIcon {
+.toggleIcon {
     height: 15px;
     width: 15px;
     position: relative;
 }
-.FAQIcon span {
+.toggleIcon span {
     background-color: #00203FFF;
     display: block;
     position: absolute;
@@ -197,7 +197,7 @@ body {
 .close {
     transform: translate(-50%, -50%) rotate(90deg);
 }
-.FAQIcon.active .close {
+.toggleIcon.active .close {
     transform: translate(-50%, -50%);
 }
 .accordionPanel {
